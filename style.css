@@ -123,3 +123,15 @@
         border-radius: 50%;
         left: -37px;
     }
+    .project-video {
+        display: none;
+        position: absolute;
+        width: 300px; 
+        height: auto;
+        z-index: 1;
+    }
+    
+    .project-link:hover .project-video {
+        display: block;
+    }
+    
